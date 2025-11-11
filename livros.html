@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Livros - Minha Biblioteca</title>
+    <link id="theme-link" rel="stylesheet" href="css/style-claro.css">
+    <script src="js/tema.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="livros.html">Meus Livros</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Alternar Tema</button>
+    </header>
+
+    <main>
+        <section id="livros">
+            <h2>Catálogo de Livros</h2>
+            <p>Abaixo está a lista de livros atualmente cadastrados na sua biblioteca.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Capa</th>
+                        <th>Título</th>
+                        <th>Autor(a)</th>
+                        <th>Ano de Publicação</th>
+                        <th>Gênero</th>
+                    </tr>
+                </thead>
+                <!-- (Req 2.a) O Javascript vai preencher este corpo -->
+                <tbody id="tabela-livros">
+                    <!-- O JS preenche aqui -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Projeto de Desenvolvimento Web</p>
+    </footer>
+
+    <!-- (Req 2.d) Script de CARGA DE DADOS (somente nesta página) -->
+    <script src="js/carrega_dados.js"></script>
+</body>
+</html>

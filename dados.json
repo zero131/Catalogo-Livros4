@@ -1,0 +1,37 @@
+[
+    {
+        "capa": "https://a-static.mlcdn.com.br/1500x1500/livro-dom-casmurro/livrariamartinsfontespaulista/951313/cf0b4f87600eab6023af68a2e7bdb4c3.jpg",
+        "titulo": "Dom Casmurro",
+        "autor": "Machado de Assis",
+        "ano": 1899,
+        "genero": "Romance"
+    },
+    {
+        "capa": "https://m.media-amazon.com/images/I/81SM0D5+DwL._UF1000,1000_QL80_.jpg",
+        "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+        "autor": "J.R.R. Tolkien",
+        "ano": 1954,
+        "genero": "Fantasia"
+    },
+    {
+        "capa": "https://m.media-amazon.com/images/I/819js3EQwbL.jpg",
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "ano": 1949,
+        "genero": "Distopia"
+    },
+    {
+        "capa": "https://m.media-amazon.com/images/I/81MandRgHRL.jpg/800px-TheHitchHikersGuideToTheGalaxy.jpg",
+        "titulo": "O Guia do Mochileiro das Galáxias",
+        "autor": "Douglas Adams",
+        "ano": 1979,
+        "genero": "Ficção Científica"
+    },
+    {
+        "capa": "https://m.media-amazon.com/images/I/81TmOZIXvzL.jpg",
+        "titulo": "O Pequeno Príncipe",
+        "autor": "Antoine de Saint-Exupéry",
+        "ano": 1943,
+        "genero": "Fábula"
+    }
+]

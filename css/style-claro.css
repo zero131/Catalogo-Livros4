@@ -1,0 +1,176 @@
+/* =================================
+   Requisitos da Tarefa
+   - 3+ Seletores de Elemento (body, h1, a, p, etc.)
+   - 2+ Seletores de Classe (.book-cover, .form-group)
+   - 1+ Seletor de ID (#contato-form)
+   ================================= */
+
+/* ===== SELETORES DE ELEMENTO (TAG) ===== */
+
+/* Estilo geral para o corpo da página */
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #008cff; /* Fundo azul-claro acinzentado */
+    color: #3a3a3a;
+    line-height: 1.6;
+}
+
+/* Cabeçalho e Rodapé */
+header, footer {
+    background-color: #2c3e50; /* Azul escuro */
+    color: #ecf0f1; /* Cinza claro */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Títulos h1 e h2 */
+h1, h2 {
+    color: #34495e; /* Azul acinzentado */
+    border-bottom: 2px solid #3498db; /* Borda azul clara */
+    padding-bottom: 10px;
+}
+
+/* Parágrafos e Itens de Lista */
+p, li {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Links de navegação */
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #3498db; /* Azul ao passar o mouse */
+    text-decoration: none;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Seções principais */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    font-size: 1.1em;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f7f9fa; /* Linhas alternadas com cor */
+}
+
+/* Formulário */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #3498db; /* Borda azul ao focar */
+    outline: none;
+}
+
+button {
+    background-color: #2ecc71; /* Verde */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #27ae60; /* Verde mais escuro */
+}
+
+/* ===== SELETORES DE CLASSE ===== */
+
+/* Classe para as imagens de capa dos livros */
+.book-cover {
+    width: 80px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.book-cover:hover {
+    transform: scale(1.1); /* Efeito de zoom na capa */
+}
+
+/* Classe para agrupar label e input no formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* ===== SELETOR DE ID ===== */
+
+/* ID para o formulário de contato */
+#contato-form {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}

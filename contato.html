@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Minha Biblioteca</title>
+    <link id="theme-link" rel="stylesheet" href="css/style-claro.css">
+    <script src="js/tema.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="livros.html">Meus Livros</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Alternar Tema</button>
+    </header>
+
+    <main>
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            <p>Preencha o formulário abaixo para entrar em contato com a nossa equipe.</p>
+            
+            <form id="contato-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="ex: joao.silva@net.com">
+                </div>
+                <!-- (Req 1.b) Campo CPF adicionado -->
+                <div class="form-group">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" required placeholder="999.999.999-99">
+                </div>
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+            <!-- Mensagens de validação aparecerão aqui -->
+            <p id="validation-message"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Projeto de Desenvolvimento Web</p>
+    </footer>
+
+    <!-- (Req 1.d) Script de VALIDAÇÃO (somente nesta página) -->
+    <script src="js/validacao.js"></script>
+</body>
+</html>
